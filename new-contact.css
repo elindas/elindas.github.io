@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: helvetica, arial;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+}
+
+main {
+    background: whitesmoke;
+    color: #444;
+    padding: 1rem;
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 600px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(39, 51, 40);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+          
+footer {
+    background-color: #444;
+    padding: 10px;
+    margin: 0;
+    
+}
+.footer a{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    color: #ccc;
+}
