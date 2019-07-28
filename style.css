@@ -5,6 +5,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
+  /* reference : Traversy Media youtube channel */
   .showcase::after {
     content: '';
     height: 100vh;
@@ -117,7 +118,7 @@ body {
       grid-template-columns: 1fr;
     }
   
-    .services div {
+    .option div {
       border-bottom: #333 dashed 1px;
       padding: 1.2rem 1rem;
     }
